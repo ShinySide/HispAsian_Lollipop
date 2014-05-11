@@ -343,3 +343,7 @@ config MDSS_UD_FLIP
 	bool "Support MDSS UD flip"
 	default n
 
+config LCD_KCAL
+	bool "Enable sysfs for LCD KCAL"
+	default y
+
